@@ -155,3 +155,7 @@ body {
     border: none;
     border-radius: 8px;
 }
+.join-button:hover{
+    color: #F00;
+    background-color: #070211;
+}
