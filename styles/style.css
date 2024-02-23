@@ -78,7 +78,7 @@ body {
 }
 
 .welcome-content {
-    padding: 50px 150px;
+    padding: 100px 150px;
     text-align: left;
     width: 60%;
 }
@@ -104,6 +104,7 @@ body {
 }
 
 .party-join {
+    padding-left: 25px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -111,6 +112,10 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+}
+.party-join:hover{
+    color: #F00;
+    transition: 0.5s;
 }
 
 /* join section style start  */
@@ -158,4 +163,16 @@ body {
 .join-button:hover{
     color: #F00;
     background-color: #070211;
+    transition: 1s;
+}
+
+/* portfolio section style start */
+.portfolio-section{
+    text-align: center;
+    margin: 25px 120px 100px;
+    padding: 10px;
+}
+.img-style{
+    padding: 10px;
+    width: 30%;
 }
