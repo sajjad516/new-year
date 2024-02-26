@@ -287,3 +287,32 @@ input::placeholder {
 
 
 /* footer section style start */
+.footer {
+    background-color: #070211;
+}
+
+.foot-content {
+    padding: 100px 150px;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.footer-place p, .fotter-contact p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.footer-last {
+    color: #fff;
+}
